@@ -5,9 +5,9 @@ My Implementation of the Udacity Capstone Project (Sparkify) as part of the Nano
 <!-- first line needs to stay here, otherwise the table is not rendered! -->
 |  |  | 
 | ------------- | ------------- |
-| **Description** | < Short description to get an impression why this project was performed. >|
+| **Description** | Predicting the churn rate of users is part of this project. To do this, a Spark workspace was used. |
 | **Anaconda environment** | < Which environment was used? > |
-| **Data Set** | < where does the data come from, How is the data structured? > |
+| **Data Set** | The used data comes from *Sparkify* a music platform, similar to Spotify. In this project only a mini subset has been used. |
 
 ## Getting Started With This Code
 < What is the first file to be executed? >
@@ -18,43 +18,19 @@ My Implementation of the Udacity Capstone Project (Sparkify) as part of the Nano
 ## Folder Structure
 If a folder is not used, use strike the folder name by using two tildes before and after.
 ```
-├── .gitignore               <- Files that should be ignored by git. Add seperate .gitignore files in sub folders if needed
-|
-├── conda_env.yml            <- Conda environment definition for ensuring consistent setup across environments 
-|
+├── .gitignore
+├── conda_env.yml
 ├── LICENSE
-├── README.md                <- The top-level README for developers using this project.
-│
-├── data                     <- Storage location for used data. *Make a note into the folder, if the files are to big to be placed on github*
-│   └── raw                  <- The original, unmodified data files as they have been downloaded 
-│
-├── models                   <- generated, stored models - *Make a note into the folder, if the files are to big to be placed on github. How can they be generated*
-|
-├── notebooks                <- Notebooks for analysis and testing. *if they need to be executed in a specific order (1. Feature Extraction, 2. ML) name them according to it. Pattern: <step>-<description>.ipynb
-│
-├── src                      <- Code for use in this project.
-│   └── examplepackage       <- Example python package - place shared code in such a package
-│       ├── __init__.py      <- Python package initialisation
-│       ├── examplemodule.py <- Example module with functions and naming / commenting best practices
-│       ├── features.py      <- Feature engineering functionality
-│       ├── io.py            <- IO functionality
-│       └── pipeline.py      <- Pipeline functionality
-│
-└── tests                    <- Test cases for Pytest(named after module)
-    ├── test_notebook.py     <- Example testing that Jupyter notebooks run without errors
-    ├── examplepackage       <- examplepackage tests
-        ├── examplemodule    <- examplemodule tests (1 file per method tested)
-        ├── features         <- features tests
-        ├── io               <- io tests
-        └── pipeline         <- pipeline tests
+├── README.md
+├── data
+├── ~~models~~
+├── notebooks 
+├── ~~src~~
+└── ~~tests~~
 ```
 
 ## Testing with PyTest
-What unit tests have been implemented? Is there anything special to mention to execute the tests with **pytest**?
+No tests have been done.
 
 ## References
-* https://github.com/equinor/data-science-template/blob/master/README.md - Base of this template
-* https://github.com/ericmjl/conda-envs - how to create conda_env.yml files
-* https://drivendata.github.io/cookiecutter-data-science/ - Information about the folder structure
-
- 
+* [Udacity Project Description](https://classroom.udacity.com/nanodegrees/nd025/parts/84260e1f-2926-4127-895f-cc4432b05059/modules/80c955ce-72f2-403a-9bf5-cc58636dab9d/lessons/d6285247-6bc0-4783-b118-6f41981b9469/concepts/47d96c80-82da-4640-9fff-54415f2a21df)
