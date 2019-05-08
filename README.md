@@ -6,7 +6,7 @@ My Implementation of the Udacity Capstone Project (Sparkify) as part of the Nano
 |  |  | 
 | ------------- | ------------- |
 | **Description** | Predicting the churn rate of users is part of this project. To do this, a Spark workspace was used. |
-| **Anaconda environment** | < Which environment was used? > |
+| **Report** | [Blog]() |
 | **Data Set** | The used data comes from *Sparkify* a music platform, similar to Spotify. In this project only a mini subset has been used. |
 
 ## Getting Started With This Code
@@ -25,6 +25,7 @@ If a folder is not used, use strike the folder name by using two tildes before a
 ├── data
 ├── ~~models~~
 ├── notebooks 
+├── report 
 ├── ~~src~~
 └── ~~tests~~
 ```
